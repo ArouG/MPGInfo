@@ -27,10 +27,13 @@
 
   MPGInfo return an object structured (named 'info') wich contains a lot of technicals information about the file.
   If we want to read this informations, we need to make them readable. So human_reading is here !
+  
   There is an option : speedy ! If speedy is false, MPGInfo will be slow ... perhaps very slow. But complete.
-  If speedy is true, only the begining and the ending of the file will be parsed. So, perhaps some details will be forgotten like subtitles !
-  If the file is a .VOB file (from DVD), MPGInfo will try to parse it because .VOB file is a MPEG-2 particuliar file. In that case,
-  MPGInfo will say "it's an DVD file" ;)
+  
+  If speedy is true, only the begining and the ending of the file will be parsed. So, perhaps some details will be forgotten like subtitles and/or sizes ... bitrates !
+  
+  If the file is a .VOB file (from DVD), MPGInfo will try to parse it because .VOB file is a MPEG-2 particuliar file. In that case, MPGInfo will say "it's an DVD file" ;)
+  
   Documentations are written in the begin of MPGInfo.js. It's possible that some of them are unnecessary : they concerned MPEG-TS files
 
 #Examples :
