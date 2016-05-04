@@ -25,7 +25,7 @@
                 }
             }); 
 
-  MPGInfo return an object structured (named 'info') wich contains a lot of technicals information about the file.
+  MPGInfo return an object structured (named 'info') which contains a lot of technicals information about the file.
   If we want to read this informations, we need to make them readable. So human_reading is here !
   
   There is an option : speedy ! If speedy is false, MPGInfo will be slow ... perhaps very slow. But complete.
