@@ -626,7 +626,7 @@ var mpg = function(opts, speedy, mpgcb) {
                             BuffOffset=Filepos - BuffLength + buffpos;   
                             if (Filepos >= info.filesize){                      // End of File
                                 //       for .vob files, it's possible that all streams not here - for example : stream subtitle n°2 here but neither n°0 neither n°1
-                                //       Clean streams witch are "null" ! 
+                                //       Clean streams which are "null" ! 
                                 var tabpos=[];
                                 for (var i=info.Stracks.length-1; i>-1; i--){
                                     if (info.Stracks[i] != null){
