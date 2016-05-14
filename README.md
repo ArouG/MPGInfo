@@ -42,4 +42,4 @@
 	for multiple files and worker   : indexw.html
 
 #Try it ? 
-    http://aroug.eu/MPGInfo/   (multiple + worker + use MKVInfo.min.js)   
+    http://aroug.eu/MPGInfo/   (multiple + worker + use MPGInfo.min.js)   
