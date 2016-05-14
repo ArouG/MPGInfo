@@ -1,4 +1,4 @@
-#MPGInfo 
+#MPGInfo.js
 
    Sort of "Mediainfo" for MPEG (1 & 2) Files (.mpeg, .mpg, .vob )- little MPEGParser (just for main technics information about the file)
 
